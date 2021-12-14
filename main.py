@@ -113,7 +113,6 @@ print(p.x, p.y)
 #     def __init__(self, plain_string:str, pass_prhase:str) -> None:
 #         self.__plain_string = plain_string
 #         self.__pass_phrase = pass_prhase
-
 #     def decrypt(self, pass_phrase:str) -> str:
 #         if pass_phrase == self.pass_phrase:
 #             return self.plain_string
@@ -126,3 +125,7 @@ print(p.x, p.y)
 # # print(secret_string.decrypt("qwerty"))
 # # print(secret_string.__plain_string)
 # print(secret_string._SecretString__plain_string)
+import datetime
+dia = datetime.datetime.now()
+
+print(add)
