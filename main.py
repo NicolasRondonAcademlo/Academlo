@@ -127,5 +127,3 @@ print(p.x, p.y)
 # print(secret_string._SecretString__plain_string)
 import datetime
 dia = datetime.datetime.now()
-
-print(add)

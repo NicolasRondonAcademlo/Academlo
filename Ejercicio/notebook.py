@@ -38,8 +38,3 @@ class Notebook:
 
 
 
-n = Notebook()
-n.new_note("Nota prueba")
-print(n.notes[0].memo)
-n.modify_memo(1, " Texto que modifique")
-print(n.notes[0].memo)
