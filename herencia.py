@@ -139,6 +139,7 @@ si sabes que lo necesitas entonces probablemente estes en lo correcto
 #         print(f"Se esta reproduciendo {self.filename} en formatp mp3")
     
 
+
 # class WavFile(AudioFile):
 #     ext = "wav"
 #     def play(self):
@@ -163,12 +164,15 @@ si sabes que lo necesitas entonces probablemente estes en lo correcto
 # class Animal(metaclass=abc.ABCMeta):
 
 #     @abc.abstractmethod
-# #     def move(self):
-# #         pass
+#     def move(self):
+#         pass
     
-# #     @abc.abstractmethod
-# #     def eat(self):
-# #         pass
+#     @abc.abstractmethod
+#     def eat(self):
+#         pass
+
+
+
 
 
 
@@ -211,3 +215,6 @@ si sabes que lo necesitas entonces probablemente estes en lo correcto
 #         pass
 
 # Foo.method()
+
+# Con todo lo que hemos aprendido de clases y herencia
+# Simular una granja
