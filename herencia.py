@@ -111,12 +111,103 @@ si sabes que lo necesitas entonces probablemente estes en lo correcto
 """
 # Mixins 
 
-class MailSender:
-    def send_email(self):
-        print("Enviar un email " + self.email)
+# class MailSender:
+#     def send_email(self):
+#         print("Enviar un email " + self.email)
 
-class EmailableContact(Contact, MailSender):
-    pass
+# class EmailableContact(Contact, MailSender):
+#     pass
 
-contact_email = EmailableContact("jon", "jon@gmail.com")
-contact_email.send_email()
+# contact_email = EmailableContact("jon", "jon@gmail.com")
+# contact_email.send_email()
+
+# POLYMORFISMO
+
+# class AudioFile:
+#     def __init__(self, filename) -> None:
+#         if not filename.endswith(self.ext):
+#             raise Exception("Formato invalido")
+#         self.filename = filename
+
+
+# frase = "hola amigos"
+# frase.endswith("los")
+# frase.startswith
+# class Mp3File(AudioFile):
+#     ext = "mp3"
+#     def play(self):
+#         print(f"Se esta reproduciendo {self.filename} en formatp mp3")
+    
+
+# class WavFile(AudioFile):
+#     ext = "wav"
+#     def play(self):
+#         print(f"Se esta reproduciendo {self.filename} en formatp wav")
+
+
+# file_mp3 = Mp3File("cancioncita.mp3")
+# file_mp3.play()
+
+# file_wav = WavFile("cancioncita.wav")
+# file_wav.play()
+
+
+# Las clases abstractas
+# Una clase en la que puedo definir metodos o propiedas, 
+# no puede ser instanciada
+# Nos sirven para construir subclases, 
+# Se deben implementar todos los metodos en la sublcase
+# Si no se define un metodo no se puede crear ni instanciar la subclase
+# import abc
+
+# class Animal(metaclass=abc.ABCMeta):
+
+#     @abc.abstractmethod
+# #     def move(self):
+# #         pass
+    
+# #     @abc.abstractmethod
+# #     def eat(self):
+# #         pass
+
+
+
+# # class Cow(Animal):
+# #     def move(self):
+# #         print("LA vaca se mueve")
+
+# #     def eat(self):
+# #         print("la vaca come")
+
+# # vaca = Cow()
+# # vaca.move()
+
+# # vaca = purina_para_vaca
+# # cerdo = purina_para_cerdo
+
+# # class Foo:
+# #     @property
+# #     def foo(self):
+# #         return "bar"
+
+# #     @property
+# #     def count(self):
+# #         pass
+# #         return 7
+
+# # a = Foo().foo
+# # print(a)
+
+# class Foo:
+#     @classmethod
+#     def method(cls):
+#         pass
+
+# class UtilitiesString:
+
+
+#     @classmethod
+#     def format_text(cls):
+#         pass
+
+# Foo.method()
